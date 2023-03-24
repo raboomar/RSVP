@@ -1,0 +1,93 @@
+h1{
+  font-family: 'Dancing Script', cursive;
+}
+h2{
+  font-family: 'Dancing Script', cursive;
+}
+
+h4{
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+  font-weight: bold;
+  padding: 0;
+  margin: 0
+}
+h3{
+  font-family: 'Dancing Script', cursive;
+  font-size: large;
+  font-weight: bold;
+}
+.header--container{
+  margin-top: 50px;
+  padding-top: 25px;
+  text-align: center;
+}
+.header--text{
+  font-size: 50px;
+
+}
+.header--details{
+  padding: 15px;
+}
+.basic-container {
+  padding: 5px;
+}
+.input--row{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  font-size: small;
+}
+.names{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    font-size: small;
+
+
+}
+.input--name{
+  padding: 5px;
+}
+
+.part--size--container{
+  /* background-color: bisque; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.party--size{
+  display: inline;
+  margin-bottom: 0px;
+
+}
+
+.btn{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+
+}
+.btn--container{
+display: flex;
+justify-content: center;
+margin-top: 40px;
+
+}
+
+.submit-btn{
+  border: 1px solid darkgoldenrod;;
+}
+
+mat-progress-spinner{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 5;
+}
